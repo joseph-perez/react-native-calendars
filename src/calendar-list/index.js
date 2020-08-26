@@ -322,6 +322,7 @@ class CalendarList extends Component {
           onEndReachedThreshold={this.props.onEndReachedThreshold}
           onEndReached={this.props.onEndReached}
           keyboardShouldPersistTaps={this.props.keyboardShouldPersistTaps}
+          nestedScrollEnabled={true}
         />
         {this.renderStaticHeader()}
       </View>
