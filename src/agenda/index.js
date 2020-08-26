@@ -488,6 +488,7 @@ UNSAFE_componentWillReceiveProps(nextProps) {
             [{nativeEvent: {contentOffset: {y: this.state.scrollY}}}],
             {useNativeDriver: true}
           )}
+          nestedScrollEnabled={true}
         >
           <View
             testID={AGENDA_CALENDAR_KNOB}
